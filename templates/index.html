@@ -1,0 +1,47 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Generator</title>
+</head> -->
+
+
+
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <h2 class="mt-5">Act out a story for chatgpt!!</h2>
+        <form method="post" action="{{ url_for('tasks') }}">
+          <input type="submit" value="Stop/Start" name="stop" />
+          <input type="submit" value="Capture" name="click" />
+        </form>
+        <img src="{{ url_for('video_feed') }}" height="80%" />
+
+        
+            <img src="/static/images/story1.png" style="width: 10%" />
+
+            <img src="/static/images/story2.png" style="width: 10%" />
+       
+
+         
+            <img src="/static/images/story3.png" style="width: 10%" />
+
+            <img src="/static/images/story4.png" style="width: 10%" />
+         
+
+         
+            <img src="/static/images/story5.png" style="width: 10%" />
+
+            <img src="/static/images/story6.png" style="width: 10%" />
+          
+        </div>
+
+        <h2>Here is your story!</h2>
+        <p>Placeholder for chatgbt story.. WOooOoOoo!</p>
+      </div>
+    </div>
+  </div>
+</body>
